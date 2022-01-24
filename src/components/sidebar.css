@@ -1,0 +1,68 @@
+@media only screen and (max-width: 992px) {
+
+    .sidebar__container{
+        display:none;
+        visibility:hidden;
+    }
+}
+
+ .sidebar__container{
+    background-color:#F8F8F8;
+    height:100vh;
+    position:fixed;
+}
+
+.sidebar__container-logo img{
+margin-bottom: 5rem;
+margin-top:2rem
+}
+
+.sidebar__container-main{
+margin-left:3rem;
+padding-right:8rem
+
+}
+
+.sidebar__container-businessdetails{
+    padding:0.7rem;
+    border:1px solid #E5E9F2;
+    display:column;
+    background:white;
+    border-radius: 5px;
+    height:2.5rem;
+    width:150%;
+    margin-bottom: 2rem;
+}
+
+.sidebar__container-businessdetails h4{
+    padding-top: 0;
+    margin-top:0;
+    margin-bottom: 0.5rem;
+
+
+}
+.sidebar__container-businessdetails p{
+    color: grey;
+    padding-top: 0;
+    margin-top:0;
+    font-size:0.8rem;
+    
+}
+
+.tab__indent{
+    /* margin-top: 0rem; */
+    padding-left: 2rem;
+}
+
+.tab__indent{
+    font-size: 0.8em;
+    width:100%;
+}
+
+.show{
+    display:flex;
+    flex-direction:column;
+}
+.hide{
+    display:none;
+}

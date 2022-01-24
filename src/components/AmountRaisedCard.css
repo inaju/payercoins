@@ -1,0 +1,41 @@
+.amountraisedcard__container{
+    display: flex;
+    flex-direction: row;
+    padding:1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E5E9F2;
+    margin:1rem 2rem 1rem 0;
+}
+.amountraisedcard__container-icon{
+    margin-right:1rem;
+}
+.amountraisedcard__container-details-cointext {
+    color: #787676;
+    font-weight: 800;
+    margin:0;
+    padding:0;
+}
+
+.amountraisedcard__container-details-coinamount{
+    font-size: 1rem;
+    color: #787676;
+    margin:0;
+    padding:0.5rem 0 0.5rem 0;
+
+}
+
+.amountraisedcard__container-details-usdamount{
+    color: #787676;
+    margin:0;
+    padding:0;
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .amountraisedcard__container{
+        width:150%;
+    }
+
+}

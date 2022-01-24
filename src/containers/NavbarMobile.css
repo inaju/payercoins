@@ -1,0 +1,35 @@
+.navbarmobile__container {
+    box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.15);
+
+}
+
+.navbarmobile__container-items{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:4rem;
+}
+
+.navbarmobile__container-account{
+    display:flex;
+    place-items: center;
+
+}
+.navbarmobile__container-logo img{
+margin-left:0.8rem;
+}
+
+.navbarmobile__container-account img{
+    margin-right: 0.6rem;    
+    height:2rem;
+}
+
+
+
+
+@media only screen and (min-width:992px) {
+.navbarmobile__container{
+    display:none;
+    visibility:hidden;
+}
+}

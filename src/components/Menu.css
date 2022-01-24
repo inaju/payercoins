@@ -1,0 +1,9 @@
+.menu__container{
+    display:flex;
+    position: absolute;
+    z-index: 1;
+    top:5rem;
+    flex-direction: column;
+    background:#48D189;
+    padding:2rem 8rem 2rem 2rem;
+}

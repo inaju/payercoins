@@ -1,0 +1,61 @@
+ .donationsucess__container{
+    display:flex;
+    flex-direction:column;
+    place-items: center;
+    background-color: #fff;
+    text-align: center;
+    border-radius:15px;
+    padding: 1.5rem;
+    margin:0.98rem;
+    /* width:100%; */
+   
+}
+
+.donationsuccess__container-buttons{
+    display: flex;
+place-items: space-around;
+margin:0;   
+}
+
+.donationsuccess__container-buttons p{
+/* font-size:0.8rem; */
+font-weight:500; 
+margin-left:1rem;
+/* width:100px; */
+/* line-height:10px; */
+
+}
+
+
+.donationsuccess__container-buttons button{
+    position: relative;
+padding:0.01rem 3rem 0.01rem 3rem;
+height:2.5rem;
+width:10rem;
+display:flex;
+/* place-items:center; */
+justify-content:flex-start;
+align-items:center;
+border-radius: 8px;
+border:none;
+margin-bottom: 1rem;
+}
+ 
+#Copy__button{
+    background-color:#48D189;
+    color:#FFF;
+    margin-right: 1rem;
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 900px) {
+    
+    .donationsucess__container{
+        margin:auto;
+        margin-top:10%;
+        width:40%;
+    }
+        
+    }

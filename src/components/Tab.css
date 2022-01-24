@@ -1,0 +1,26 @@
+.tab__container{
+    display: flex;
+    flex-direction:row;
+    color:white;
+
+}
+
+.tab__container p > *{
+    margin-right:0.5rem;
+    
+}
+
+.tab__container p  {
+    display: flex;
+    outline:none;
+    /* margin-right:0.5rem; */
+    /* font-size:1rem; */
+    font-weight:700;
+    
+}
+
+.tab__container p a {
+    text-decoration: none;
+    color: gray;
+
+}

@@ -1,0 +1,14 @@
+
+
+@media only screen and (min-width: 992px) {
+    .campaigndetails__container{
+        margin-left:20rem;
+    }
+    
+}
+
+.campaigndetails__container-cypto{
+    display: flex;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 992px) {
+    .navbar__container{
+        display: none;
+
+        /* visibility: hidden; */
+    }
+}
+@media only screen and (min-width: 992px) {
+
+.navbar__container{
+    display:flex;
+    height:4rem;
+    border-bottom: 0.3px solid #e5e6eb;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: row;
+}
+
+.navbar__container > *{
+    margin-right:2rem;
+}
+
+.navbar__container p{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#909198;;
+}
+
+.navbar__container .nameofuser {
+    color:black;
+}
+}
