@@ -7,6 +7,7 @@ import currency_ethereum from "../assets/currency_ethereum.png"
 import "./CampaignDetails.css";
 import { BsArrowLeft, BsThreeDotsVertical } from "react-icons/bs";
 import Donors from "../components/Donors";
+import { Link } from "react-router-dom";
 
 const CampaignDetails = () => {
   return (
@@ -14,8 +15,8 @@ const CampaignDetails = () => {
       <div className="campaigndetails__container-header">
         <div className="campaigndetails__container-header-text">
          
-         
-            <BsArrowLeft  size={20}/> <h4>Campaign Name</h4>{" "}
+         <Link to="/donation">
+            <BsArrowLeft  size={20}/> </Link> <h4>Campaign Name</h4>{" "}
          
         </div>
 
