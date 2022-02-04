@@ -1,0 +1,21 @@
+.paymentsuccess__container {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  margin: auto;
+  width: 20rem;
+  padding: 1.2rem 2rem 1rem 2rem;
+  border-radius: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* place-items: center; */
+}
+
+.paymentsuccess__container > div {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align:Center;
+}

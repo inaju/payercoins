@@ -1,0 +1,30 @@
+.paymentcoincard__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #E5E9F2;
+  box-sizing: border-box;
+  border-radius: 8px;
+    margin-bottom:2rem;
+  padding:1rem;
+}
+
+.paymentcoincard__container-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 1rem;
+}
+
+.paymentcoincard__container-text h4,
+.paymentcoincard__container-text p {
+  margin: 0;
+}
+.paymentcoincard__container img {
+  object-fit: contain;
+}
+
+.paymentcoincard__container-left {
+  display: flex;
+  align-items: center;
+}

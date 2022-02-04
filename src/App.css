@@ -26,3 +26,15 @@ body{
 .app__main{
   width:100%;
 }
+
+button:hover{
+  cursor: pointer;
+  margin:0.5rem;
+  transition:0.5s;
+  
+}
+
+a{
+  text-decoration: none;
+  outline:none;
+}
